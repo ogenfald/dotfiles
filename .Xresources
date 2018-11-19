@@ -1,8 +1,6 @@
 ! urxvt
 URxvt.font: xft: xos4 Terminus:size=10
 URxvt.scrollBar:false
-! URxvt.depth:32
-! URxvt.background:[90]#000000
 URxvt.trasnparent: true
 URxvt.shading: 30
 
