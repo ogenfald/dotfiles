@@ -1,0 +1,14 @@
+#!/bin/bash
+
+volume=$(pulsemixer --get-volume)
+mute=$(pulsemixer --get-mute)
+
+if (($mute == 0))
+then
+	echo $volume
+fi
+
+if (($mute == 1)) 
+then
+	echo 'Muted'
+fi
