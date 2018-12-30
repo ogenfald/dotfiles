@@ -5,7 +5,7 @@ mute=$(pulsemixer --get-mute)
 
 if (($mute == 0))
 then
-	echo $volume
+	echo ${volume:0:3}
 fi
 
 if (($mute == 1)) 
